@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>  Create the best journey in your life</title>
+<meta name="description" content="Choose your the most amazing adventure.Breathtaking scenery, incredible sensations and unforgettable emotions - it is only a small part of what you can give a tour to the mountains. Let the nature set you free!">
+<meta name="Keywords" content="adventure, journey, mountains, travel, Alps, Bavarian mountains, Ukraine, Carpatian mountains, pictures, landscapes, wild nature, relax, emotions. ">
+<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="reset.css">
+ <link rel="stylesheet" type="text/css" href="normalize.css"> 
+ <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.0.custom/jquery-ui.min.css">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+</head>
+<body>
+<style type="text/css">
+  body{
+ font-family: 'Bree Serif', serif;
+  }
+</style>
+<header>
+<div class="container-fluid" >
+  <div class="navbar navbar-fixed-top" id="nav">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"> <img alt="Brand" src="images/logo.png">   </a>
+
+        <a class="navbar-brand" href="#"> <span class="travel">T R A V E L <br>
+        trough the mountains </span> </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu" >
+        <span class="sr-only"> Open menu</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div class="collapse navbar-collapse" id="responsive-menu">
+        <ul class="nav navbar-nav navbar-right" >
+          <li><a href="#" class="text active"> Home </a></li>
+            <li class="dropdown">   
+         <a class="dropdown-toggle" data-toggle="dropdown"  data-target="#dropdown-menu" href="#"  > <span class="text" id="">About
+         </span>
+         <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#"  class="text">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li> 
+        </ul>
+          <li><a href="#"  class="text"> Gallery</a></li>
+          <li><a href="#" class="text">Blog</a></li>
+          <li><a href="#"  class="text"> Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="carousel" class="carousel slide" data-ride="carousel"> 
+
+  <ol class="carousel-indicators">
+    <li class="active"  data-target="#carousel" data-slide-to="0">  </li>
+    <li data-target="#carousel" data-slide-to="1">   </li>
+    <li  data-target="#carousel" data-slide-to="2">  </li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/slider-img01.jpg" alt="picture">
+      <div class="carousel-caption" >
+      <h3> Travel</h3>
+      <h1> Bavarian Alps</h1>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/slider-img02.jpg" alt="picture2">
+            <div class="carousel-caption" >
+      <h3> Travel</h3>
+      <h1> Scandinavain mountains </h1>
+      </div>
+    </div>
+     <div class="item">
+      <img src="images/slider-img03.jpg" alt="">
+            <div class="carousel-caption" >
+          <h3> Travel</h3>
+      <h1> Cordillera Mountains  </h1>
+      </div>
+    </div>
+    </div>
+
+    </div>
+   <div class="about"><h3 class="about"> About Travel Guide</h3>
+
+     <h1 class="welcome">Welcome!</h1>
+     <br>
+     <br> <p> Our clients are our greatest value. At the moment, our services have benefited from more than 310000  travelers and about 400 people trust us their daily travel. We are proud that our clients recommend us to their friends, relatives and acquaintances. We, in turn, are doing our utmost to make your rest positive and memorable, try to provide everything necessary to make you feel confident during the journey</p>
+
+     <p> Thanks to many years of experience, high professionalism of employees and mutual respect policy vis-à-vis clients and partners, the company has earned the trust and credibility among travel agencies, and private clients</p>
+     <button name="button1" class="button1 col-xs-12  col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3" value=" About us"  data-toggle="modal" data-target="#myModal"> Login </button>
+     <button name="button2" class="button2 col-xs-12 col-sm-3  col-md-3 col-lg-3" data-toggle="modal" data-target="#myModal1">
+        Registration
+      </button>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel"> Access your account</h4>
+      </div>
+      <div class="modal-body">
+   
+<form class="form-horizontal" role="form" id="formFirst">
+  <div class="form-group">
+ 
+    <label for="inputEmail3" class="col-sm-2 control-label" style="color:white">Email</label>
+    <div class="col-sm-10">
+      <div class="input-group">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email"> 
+  <span class="input-group-addon" style="color:deepskyblue">@</span>
+  </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label" style="color:white">Password</label>
+    <div class="col-sm-10">
+    <div class="input-group">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      <span class="input-group-addon"><i class="fa fa-key" style="color:deepskyblue"></i></span>
+    </div>
+  </div>
+  </div>
+<!--   <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Запомнить меня
+        </label>
+      </div>
+    </div>
+  </div> -->
+  <div class="form-group">
+    <div class="col-sm-offset-9 col-sm-3 ">
+      <button type="submit" class="btn btn-success">Log in</button>
+    </div>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Create your new account</h4>
+      </div>
+      <div class="modal-body">
+   
+<form class="form-horizontal" role="form" id="formMe">
+<div class="form-group">
+ 
+    <label for="name" class="col-sm-3 control-label">Name</label>
+    <div class="col-sm-9">
+      <div class="input-group">
+      <input type="text" class="form-control" id="inputEmail3" placeholder="Please, enter your name"> 
+      <span class="input-group-addon"><i class="fa fa-user" style="color:deepskyblue"></i></span>
+  </div>
+    </div>
+  </div>
+  <div class="form-group">
+ 
+    <label for="inputEmail3" class="col-sm-3 control-label">Last name</label>
+    <div class="col-sm-9">
+      <div class="input-group">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Please, enter your  last name"> 
+  <span class="input-group-addon"><i class="fa fa-street-view" style="color:deepskyblue"></i></span>
+  </div>
+    </div>
+  </div>
+  <div class="form-group">
+ 
+    <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+    <div class="col-sm-9">
+      <div class="input-group">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email"> 
+  <span class="input-group-addon"  style="color:deepskyblue">@</span>
+  </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+    <div class="col-sm-9">
+    <div class="input-group">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      <span class="input-group-addon"><i class="fa fa-key" style="color:deepskyblue"></i></span>
+    </div>
+  </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-offset-9 col-sm-3">
+      <button type="submit" class="btn btn-default">Log in <i class="fa fa-smile-o fa-2x" style="color:deepskyblue"></i></button>
+    </div>
+  </div>
+  <div class="form-group">
+ 
+ 
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div> 
+<!--  <div class="modal" id="modal-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="modal-header"> 
+        <h4 class="modal-title"> Your registration form </h4>
+        <button class="close" type="button" data-dismiss="modal"> <i class="fa fa-close"> </i></button> </div>
+        <div class="modal-body">
+          <p> This is modal</p> </div>
+          <div class="modal-footer"> 
+          <button class="btn btn-info" type="button" data-dismiss="modal"> cancel</button>
+          </div>
+      </div>
+    </div>
+  </div> -->
+ 
+      <div class="container-fluid" id="sprite">
+
+    <img class="myimg col-xs-4 col-sm-4 col-md-4 col-lg-4" src="images/sprite/1-11t.jpg" alt=""> <!-- <span class="pic"> Norway</span> -->
+<img class="myimg col-xs-4 col-sm-4 col-md-4 col-lg-4" src="images/sprite/2-11t.jpg" alt="">
+<img class="myimg col-xs-4 col-sm-4 col-md-4 col-lg-4" src="images/sprite/3-111t.jpg" alt="">
+
+   <img  class="myimg col-xs-4 col-sm-4 col-md-4 col-lg-4" src="images/sprite/1-11m.jpg" alt="">
+    <img class="center col-xs-4 col-sm-4 col-md-4 col-lg-4" src="images/sprite/1-1111mid.png" alt=""> 
+<img class="myimg col-xs-4 col-sm-4 col-md-4 col-lg-4" src="images/sprite/3-111111mid.jpg" alt="">
+  <img class="myimg col-xs-4 col-sm-4 col-md-4 col-lg-4" src="images/sprite/1-11b.jpg" alt=""> 
+<img class="myimg col-xs-4 col-sm-4 col-md-4 col-lg-4" src="images/sprite/2-11b.jpg" alt="">
+  <img class="myimg col-xs-4 col-sm-4 col-md-4 col-lg-4" src="images/sprite/3-11.jpeg" alt="">
+  </div> 
+  </header>
+  <div class="container-fluid"  id="para">
+  <div class="about"><h3 class="about"> Who we are ?</h3>
+
+     <h1 class="welcome">ABOUT US</h1>
+
+
+Hinterland Travel is a specialist adventure holiday and travel company, founded on over 40 years of overland adventure travel experiences by Jane Hann, its owner and managing director. We provide tours to the world's 10 highest peaks, including Mount Everest - the world's tallest - on the border with Tibet, and Lumbini, the birth place of Gautama Buddha, the founder of Buddhism.
+  <h1 class="welcome">Mount Everest: Highest Altitude </h1>
+  <p>
+    Almost everyone calls Mount Everest "the highest mountain in the world," and climbers from everywhere travel to Everest hoping to earn the distinction of climbing the "World's Highest."</p>
+    <h1 class="about">
+      What does "world's highest" really mean? </h1>
+<p>Mount Everest is called the world's highest mountain because it has the "highest elevation above sea level."We could also say that it has the "highest altitude."
+The peak of Mount Everest is 8,850 meters (29,035 feet) above sea level. No other mountain on Earth has a higher altitude. However, some mountains might be considered "taller" (with taller being "the total vertical distance between their base and their summit").<p>
+<br>
+<br>
+     </div>
+  </div>
+  <div class="container-fluid">
+    <div class="bgimg-2">
+  <div class="w3-display-middle">
+  
+  </div>
+</div>
+
+
+  <div>
+<div class="container-fluid" id="parallax"></div>
+  <div class="container-fluid">
+  <div class="about"><h3 class="about"> What people are saying</h3>
+
+     <h1 class="welcome">TESTIMONIALS</h1>
+     <div class="people col-xs-12  col-sm-12  col-md-4 col-lg-4 ">
+       <img src="images/page1-img01.jpg" alt="">
+ 
+       <blockquote>My partner and I just returned from our European vacation planned by Annie at The Travel Agency and we could not be happier! It was a 25 day trip through Italy, France, and Spain...  </blockquote>
+    <br> 
+       <cite> Mary, Nepal</cite>
+     </div><!-- 
+     <div class="people col-xs-3  col-sm-3 col-md-3 col-lg-3"> -->
+     
+     <div class="people col-xs-12  col-sm-12  col-md-4 col-lg-4 ">
+       <img src="images/page1-img02.jpg" alt="">
+   
+       <blockquote> My family and I have been working with The Travel Agency in excess of 20 years in both business and personal travel.  She has arranged trips that have allowed me to achieve my dreams of mountain climbing and summiting high mountain peaks in both the Antarctic and Ukraine  
+       </blockquote>
+        <br> 
+       <span class="cite1"> Jane, Germany </span>
+     </div>
+     <div class="people col-xs-12  col-sm-12 col-md-4 col-lg-4 ">
+       <img src="images/page1-img03.jpg" alt="">
+
+       <blockquote> Thanks to you, we had a wonderful experience in Peru. The country was beautiful, the people gracious, a memory of a lifetime.  Thanks to you and your connections, we have no regrets about our trip and look forward to working with you on our next adventure! </blockquote>
+       <br> 
+       <cite> Robert, China</cite>
+     </div>
+   </div>
+ </div>
+<div class="pic-bg col-xs-12  col-sm-12 col-md-12 col-lg-12">
+<img src="iv55bI9S.inettools.net.resize.image.jpg">
+  </div>
+
+   <div class="news1 ">
+   <h3 class="about"> New travel </h3>
+
+     <h1 class="welcome">NEWS & EVENTS</h1>
+     <div class="news col-xs-5 col-sm-3 col-md-3 col-lg-3">
+       <img src="images/page1-img04.jpg" alt="">
+  <blockquote> <a href="#"> Greece </a>
+   <br>
+    <br>
+     The cradle of ancient civilization, today's Greece is one of the most popular destinations among tourists.. </blockquote>
+    
+     </div>
+     <div class="news col-xs-5 col-sm-3 col-md-3 col-lg-3">
+       <img src="images/page1-img05.jpg" alt="">
+       <blockquote> <a href="#"> Viet Nam </a>
+       <br>
+    <br>
+    Viet Nam is notable for the beautiful nature, ancient temple complexes and hotels with good service and low prices...
+       </blockquote>
+
+     </div>
+     <div class="news col-xs-5 col-sm-3 col-md-3 col-lg-3">
+       <img src="images/page1-img06.jpg" alt="">
+     <blockquote>
+       <a href="#"> Madagaskar </a>
+     <br>
+ <br>
+     The Republic of Madagaskár is an island nation in the Indian Ocean, located on the island of Madagascar... </blockquote>
+       <br> 
+     </div>
+        <div class="news col-xs-5 col-sm-3 col-md-3 col-lg-3">
+       <img src="images/page1-img07.jpg" alt="">
+ <blockquote>
+ <a href="#"> Seyshelles </a>
+ <br>
+  <br>
+    The Republic of Seychelles is an island nation located in the Seychelles and Amirant...</blockquote>
+       <br> 
+     </div>
+   </div>
+   <div class="container-fluid"> 
+   <div class='col-xs-12  col-sm-12 col-md-12 col-lg-12' id="news2">
+ <p class="title-n col-xs-4 col-sm-3  col-md-3  col-lg-3 "> Newsletter</p>
+ <input type="email" name="email" placeholder="Email" class="email-footer col-xs-3  col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-2 col-lg-3 col-lg-offeset-2">
+ <input type="button" name="button3" class="button3 col-xs-3 col-sm-3 col-md-3  col-md-offset-1 col-lg-3 " value="SUBSCRIBE">
+ </div>
+ </div>
+ 
+<footer class="container-fluid ">
+<div class="col-xs-12  col-sm-12 col-md-12 col-lg-12 form2">
+<!-- <div class="invisible"> i love you </div>  -->
+<form class="form-inline">
+<div class="icons col-xs-1 col-sm-1 col-md-1 col-lg-1"><img src="images/mobile-icon.png" alt="" class="icons1"> 
+</div>
+<p class="blockquote col-xs-2 col-sm-2 col-md-2 col-lg-2 ">
+<span class="mail_us">
+  +38063 000 00 00 <br>
+  </span>
+<span class="mail_us">
+
+  +38050 000 11 22 </span>
+</p>
+<input type="text" class="col-xs-3 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-2 col-lg-3" id="InputName1" placeholder="Name">
+<input type="email" class="col-xs-3  col-sm-3  col-sm-offset-1 col-md-3 col-md-offset-1 col-md-3 col-lg-3" id="InputName2" placeholder="Phone">
+  </form>
+
+  <form class="horizontal-form">
+ <div class="icons col-xs-1 col-sm-1 col-md-1 col-lg-1 clear"4>
+  <img src="images/location-icon.png" class="icon1"> </div>
+  <p class="blockquote col-xs-2 col-sm-2 col-md-2 col-lg-2"> <span class="mail_us">9870 St Vincent Place <br> </span>
+<span class="mail_us">Glasgow, DC 45 Fr 45. </span> </p> 
+<input type="email" class="col-xs-7 col-sm-7 col-sm-offset-1 col-md-7 col-md-offset-2 col-lg-7" name="email" placeholder="Email" id="email-footer2"> 
+ <div class="icons col-xs-1 col-sm-1 col-md-1 col-lg-1 clear" >
+  <img src="images/mail-icon.png" class="icon1"> </div>
+  <p class="blockquote col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <a href="#" class="mail_us1"> mail@demolink.ua </a>
+     </p>
+<input type="text" name="email" class="col-xs-7 col-sm-7 col-sm-offset-1 col-md-7 col-md-offset-2 col-lg-7" placeholder="Message" id="message-footer2">
+
+ <input type="button" name="button4" class="button4 col-xs-4 col-sm-4 col-sm-offset-5 col-md-7 col-md-offset-5 col-lg-7" value="send">
+  </form>  
+  <div class="smm col-xs-12  col-sm-12 col-md-12 col-lg-12">
+
+<span class="ssm_i"><i class="fa fa-facebook fa-4x col-xs-2 col-sm-2 col-sm-offset-1 col-md-2 col-lg-2" aria-hidden="true"></i></span>
+<span class="ssm_i"><i class="fa fa-twitter fa-4x  col-xs-2 col-sm-2  col-md-2 col-lg-2" aria-hidden="true"></i></span>
+
+    <span class="smm_i"> <i class="fa fa-instagram fa-4x col-xs-2 col-sm-2 col-md-2 col-lg-2" aria-hidden="true"></i></span>
+<span class="ssm_i"><i class="fa fa-pinterest fa-4x  col-xs-2 col-sm-2 col-md-2 col-lg-2" aria-hidden="true"></i></span>
+<span class="ssm_i"><i class="fa fa-google-plus fa-4x  col-xs-2 col-sm-2 col-sm-offset-1 col-md-2 col-lg-2" aria-hidden="true" " ></i></span> 
+  <p class="copy"> BA_FE <i class="fa fa-copyright " aria-hidden="true" id="copyright"></i> 2016 </p>
+
+  </div> 
+   </div>
+ </footer> 
+
+<div id= "toTop"> 
+<span class="glyphicon glyphicon-menu-up" ></span> 
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.12.0.custom/jquery-ui.min.js"></script>
+<script type="text/javascript"> 
+
+$(function() { 
+
+$(window).scroll(function() { 
+
+if($(this).scrollTop() != 0) { 
+
+$('#toTop').fadeIn(); 
+
+} else { 
+
+$('#toTop').fadeOut(); 
+
+} 
+
+}); 
+
+$('#toTop').click(function() { 
+
+$('body,html').animate({scrollTop:0},800); 
+
+}); 
+
+});
+  </script>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

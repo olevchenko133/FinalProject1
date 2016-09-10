@@ -1,0 +1,47 @@
+git inIt - добавление гита репозитория
+gitIgnore - файл игнора в корень проекта
+git config --global user.name " example" - задать имя пользователья
+git config --global user.email example@example.ru - задать имейл пользователья
+git config --list - данные в гите
+git status - просмотр данных трека,слежка за версией
+git add . - добавление в присмотр
+git rm --chached exampleFile (ctrl+insert = вставить из буфера) убрать из присмотра гита
+git commit -a -m"init" - индекс всех файлов и добавление файлов (сохранение для отката)
+git cimmit -m"addfiles" - добавление в коммит
+можно коммитит только после индексации
+git add "*.php" - все файли пшп проиндексировать 
+(коммит сохраняет состояние после последнего индекса)
+git checkout -- exFile - откат файла до состояним в репозитории( до последнего индекса)
+git log - лог коммитов(изменения репозитория)
+git help (log) - помощь по гиту (по заданному запросу)
+git log --pretty=format:"%h(<-это короткий код коммита) - %an(-автор), %ar(время когда сделано) : %s(комментарий)"
+git log --since=2.weeks - лог за последние 2 недели
+git log -p -2(сколько коммитов показать)  просмотри изменения файлов
+git commit  редактор (выйти еск :x) (оставлять коментарии)
+git -m добавление коммита
+git config --global core.editor "'D:\program Files\Notepad++\notepad++.exe'
+ - multiInst -notabbar -nosession -noPlugin" 
+ git checkout -b new_f(new_f имя ветки) - создание и переключение на новую ветку
+ git branch - ветки
+  git branch -v  последние коммиты веток и проверка в какой ветка мы
+  git branch new_f2 создание но не переключение
+  git checkout new_f2  переключение на другую ветку
+   git config --global merge.tool kdiff3  -указали утилиту для решения конфликта мержа
+   git merge new_f -мерж и имя ветки которую присоеденяем себе
+   git mergetool  - открыть указанную утилиту для решения конфликта
+   После утановки кдф3 - прописать git config --global mergetool.kdiff3.cmd '"путь" 
+   $BASE $LOCAL $REMOTE -o $MERGED' 
+ git remote add origin http....   - название и ссылка на гитхаб для создания репозитория
+ git push -u origin master  -  пуш изменений\коммитов в репозиторий заданой ветки
+ git push  - пуш на гитхаб
+ git config...matching - по соотвествию может протолкнуть несколько веток
+              simple - 1 выбраную ветку
+git clone http....   - ссылка на клонирования репозитория
+git fetch - получили данные с репозитория
+git pull  - установка новых данных с репозитория после fetch
+ 
+
+ 
+
+
+
